@@ -4,9 +4,10 @@ import {
   Code,
   Globe,
   Database,
-  TestTube,
+  BarChart2,
   Cloud,
   Smartphone,
+  Wrench,
 } from "lucide-react";
 
 export function Skills() {
@@ -14,12 +15,12 @@ export function Skills() {
     {
       icon: Code,
       title: "Frontend",
-      skills: ["React", "Redux", "Angular", "TypeScript", "HTML5", "CSS3", "SASS", "Bootstrap"],
+      skills: ["Angular 15+", "Signals", "Standalone Components", "React", "TypeScript", "RxJS", "NgRx", "Redux", "HTML5", "CSS3", "SASS", "Bootstrap"],
     },
     {
       icon: Smartphone,
-      title: "Mobile & Hybrid",
-      skills: ["React Native", "Ionic"],
+      title: "Mobile",
+      skills: ["React Native", "Ionic", "PWA"],
     },
     {
       icon: Globe,
@@ -28,18 +29,23 @@ export function Skills() {
     },
     {
       icon: Database,
-      title: "Cloud & Data",
-      skills: ["Firebase", "MongoDB", "AWS S3"],
+      title: "Databases & Cloud",
+      skills: ["MongoDB", "InfluxDB", "AWS S3", "Docker"],
     },
     {
       icon: Cloud,
-      title: "DevOps & Monitoring",
-      skills: ["Docker", "InfluxDB", "Grafana", "Prometheus"],
+      title: "DevOps",
+      skills: ["GitHub Actions", "CI/CD", "Grafana", "Prometheus"],
     },
     {
-      icon: TestTube,
-      title: "Tools",
-      skills: ["Git", "Jira", "Azure DevOps"],
+      icon: BarChart2,
+      title: "Analytics",
+      skills: ["GA4", "Google Tag Manager", "Meta Pixel"],
+    },
+    {
+      icon: Wrench,
+      title: "Tooling",
+      skills: ["Git", "Jira", "Vite", "Webpack"],
     },
   ];
 

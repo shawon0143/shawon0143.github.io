@@ -5,53 +5,39 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 export function Experience() {
   const experiences = [
     {
-      title: "Senior Software Developer",
-      company: "PHOENIX Pharmahandel",
-      location: "Remote / DE",
+      title: "Senior Frontend Engineer",
+      company: "PHOENIX Pharmahandel GmbH & Co KG",
+      location: "Mannheim, DE",
       period: "Mar 2020 – Present",
       description:
-        "Building and maintaining a B2B pharmaceutical portal with responsive UI, design consistency, and API integrations in a large enterprise environment.",
-      technologies: ["Angular", "TypeScript", "RxJS", "REST APIs", "SCSS"],
+        "Modernised a large-scale B2B pharmaceutical portal (100k+ users) by migrating to Angular 15+ with Standalone Components and Signals. Introduced NgRx state management, established GitHub Actions CI/CD pipelines, led performance optimisation through lazy loading and bundle analysis, and mentored junior frontend developers.",
+      technologies: ["Angular 15+", "NgRx", "TypeScript", "RxJS", "Signals", "GitHub Actions", "CI/CD", "SCSS"],
     },
     {
       title: "Software Developer",
-      company: "ComValue",
-      location: "Wiesbaden / DE",
+      company: "ComValue GmbH",
+      location: "Wiesbaden, DE",
       period: "May 2019 – Feb 2020",
       description:
-        "Shipped SPAs and Electron desktop apps for pharmacy workflows, built a cross-platform React Native app, and contributed to backend API design.",
-      technologies: [
-        "React",
-        "Redux",
-        "Electron",
-        "React Native",
-        "Node.js",
-        "REST",
-      ],
+        "Developed SPAs and Electron desktop client plugins for pharmacy management tools using React and Redux. Built a cross-platform mobile application with React Native and contributed to Node.js/Express API design.",
+      technologies: ["React", "Redux", "Electron", "React Native", "Node.js", "Express"],
     },
     {
       title: "Software Developer",
-      company: "PTC-Telematik",
-      location: "Koblenz / DE",
+      company: "PTC-Telematik GmbH",
+      location: "Koblenz, DE",
       period: "Aug 2017 – Apr 2019",
       description:
-        "Delivered NexxDeli: real-time vehicle tracking and order management with integrated POS and inventory APIs for food delivery.",
-      technologies: [
-        "Angular",
-        "Ionic",
-        "Node.js",
-        "Real-time tracking",
-        "REST",
-        "Maps",
-      ],
+        "Architected and built NexxDeli (nexxdeli.de) — a real-time vehicle tracking, order management and POS platform for food delivery operations. Integrated GPS tracking, shop management, inventory and delivery APIs, and built a cross-platform mobile companion app with Ionic.",
+      technologies: ["Angular", "Ionic", "Node.js", "WebSockets", "Maps API", "REST"],
     },
     {
       title: "Student Assistant",
-      company: "Institut für Wissensmedien",
+      company: "IWM / University of Koblenz-Landau",
       location: "Koblenz, DE",
       period: "Jan 2017 – Jul 2019",
       description:
-        "Developed Badgelor, an Angular app for badge management at the University of Koblenz-Landau.",
+        "Built Badgelor — an Angular web application for digital badge management at the university, supporting student achievement recognition workflows.",
       technologies: ["Angular", "TypeScript"],
     },
   ];
@@ -62,8 +48,8 @@ export function Experience() {
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-3xl md:text-4xl">Professional Experience</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            5+ years delivering B2B portals, real-time systems, and
-            cross-platform apps.
+            8+ years delivering enterprise B2B portals, real-time systems, and
+            cross-platform apps across Germany.
           </p>
         </div>
 

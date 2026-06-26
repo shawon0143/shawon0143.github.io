@@ -64,13 +64,12 @@ export function Hero({ onResumePrint }: HeroProps) {
 
               <div className="space-y-4">
                 <p className="text-xl sm:text-2xl text-muted-foreground max-w-lg">
-                  Software Developer | Frontend Specialist | React, Angular,
-                  TypeScript, Node.js, React Native
+                  Senior Frontend Engineer — Angular, React, TypeScript
                 </p>
 
                 <p className="text-lg text-muted-foreground/80 max-w-md">
-                  5+ years shipping web and mobile products across B2B portals,
-                  ops tools, and real-time systems.
+                  8+ years delivering enterprise-scale web and mobile products
+                  across B2B portals, real-time systems, and startup products.
                 </p>
               </div>
             </div>
@@ -152,21 +151,21 @@ export function Hero({ onResumePrint }: HeroProps) {
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8">
               <div className="text-center lg:text-left">
-                <div className="text-2xl md:text-3xl mb-1">5+ yrs</div>
+                <div className="text-2xl md:text-3xl mb-1">8+ yrs</div>
                 <div className="text-sm text-muted-foreground">
-                  Frontend leadership
+                  Frontend engineering
                 </div>
               </div>
               <div className="text-center lg:text-left">
                 <div className="text-2xl md:text-3xl mb-1">Web · Mobile</div>
                 <div className="text-sm text-muted-foreground">
-                  React & Angular
+                  Angular & React
                 </div>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-2xl md:text-3xl mb-1">B2B</div>
+                <div className="text-2xl md:text-3xl mb-1">100k+</div>
                 <div className="text-sm text-muted-foreground">
-                  Portals & ops tools
+                  Users served
                 </div>
               </div>
             </div>
@@ -184,8 +183,8 @@ export function Hero({ onResumePrint }: HeroProps) {
                 <div className="relative w-88 h-88 md:w-96 md:h-96 lg:w-[22rem] lg:h-[22rem] rounded-full overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/10 backdrop-blur-sm border-4 border-background/50 shadow-2xl">
                   <ImageWithFallback
                     src={shawonImg}
-                    alt="Mohammad Nizam Uddin - Software Developer"
-                    className="w-full h-full object-cover transition-transform duration-500 grayscale group-hover:grayscale-0 group-hover:scale-105"
+                    alt="Mohammad Nizam Uddin - Senior Frontend Engineer"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
 
                   {/* Overlay gradient */}
@@ -197,14 +196,14 @@ export function Hero({ onResumePrint }: HeroProps) {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+        {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
           <div className="flex flex-col items-center gap-2 animate-bounce">
             <span className="text-sm text-muted-foreground">
               Scroll to explore
             </span>
             <ArrowDown className="h-5 w-5 text-muted-foreground" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -10,7 +10,7 @@ export function Projects() {
     {
       title: "AjkerMenu",
       description:
-        "Homemade food marketplace connecting customers with verified local home kitchens. Supports daily menus, recurring menus, weekly subscriptions, and special catering orders. Built end-to-end as sole frontend developer: React Native mobile app, marketing website, and a PWA/ERP system for kitchen owners to manage menus, orders, and operations.",
+        "Homemade food marketplace connecting customers with verified local home kitchens. Built end-to-end as sole frontend developer — React Native app, marketing site, and a PWA/ERP system for kitchen owners.",
       image: ajkerMenuHero,
       imgStyle: { objectFit: "cover" as const, objectPosition: "top center", transform: "scale(1.1)", transformOrigin: "top center" },
       technologies: ["React Native", "React", "PWA", "GA4", "Meta Pixel", "GTM"],
@@ -52,7 +52,7 @@ export function Projects() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="overflow-hidden flex flex-col">
+            <Card key={index} className="overflow-hidden flex flex-col h-full">
               <div className="relative h-44 overflow-hidden">
                 <ImageWithFallback
                   src={project.image}

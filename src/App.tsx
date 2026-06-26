@@ -33,7 +33,7 @@ export default function App() {
   ];
 
   return (
-    <ThemeProvider defaultTheme="system" storageKey="portfolio-theme">
+    <ThemeProvider defaultTheme="light" storageKey="portfolio-theme">
       <div className="app-shell min-h-screen bg-background transition-colors duration-300">
         {/* Hidden resume for print */}
         <div

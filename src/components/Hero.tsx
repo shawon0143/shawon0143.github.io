@@ -5,7 +5,6 @@ import {
   Linkedin,
   Mail,
   Download,
-  ArrowDown,
   Sparkles,
 } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
@@ -194,16 +193,6 @@ export function Hero({ onResumePrint }: HeroProps) {
             </div>
           </div>
         </div>
-
-        {/* Scroll Indicator */}
-        {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-          <div className="flex flex-col items-center gap-2 animate-bounce">
-            <span className="text-sm text-muted-foreground">
-              Scroll to explore
-            </span>
-            <ArrowDown className="h-5 w-5 text-muted-foreground" />
-          </div>
-        </div> */}
       </div>
     </section>
   );
